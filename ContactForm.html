@@ -5,8 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <link rel="stylesheet" href="./formStyle.css">
 </head>
 <body>
-    
+    <div class="body">
+        <p class="header">CONTACT FORM</p>
+        <div class="container">
+            <div class="float-child">
+                <form action="./pridavimas.html" class="form">
+                    <div>
+                        <input required type="text" placeholder="YOUR NAME" name="name" class="nameAddress"/>
+                    </div>
+                    <div>
+                        <input required type="text" placeholder="YOUR EMAIL ADDRESS" name="address" class="nameAddress"/>
+                    </div>
+                    <div>
+                        <input required type="text" placeholder="COMPANY" name="companyName" class="companyPhone"/>
+                        <input required type="text" placeholder="PHONE" name="phone" class="companyPhone"/>
+                    </div>
+                    <div>
+                        <textarea required placeholder="YOUR MESSAGE" name="message" rows="6" cols="44" class="messageDetails"></textarea>
+                    </div>
+                    <div class="button">
+                        <button>SEND MESSAGE</button>
+                    </div>
+                </form>
+            </div>
+            <div class="float-child">
+                <div>
+                    <p class="findUsHere">YOU CAN FIND US HERE</p>
+                </div>
+                <div>
+                    <p class="sampleAddress">SAMPLE ADDRESS. SAMPLE STREET. 123/45</p>
+                    <p class="maps">OR ON MAPS</p>
+                </div>
+                <div>
+                    <ul class="phoneList">
+                        <li>+3 (000) 0123 3210</li>
+                        <li>+3 (000) 0456 3210</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
